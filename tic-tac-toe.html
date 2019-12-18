@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div id="container">
+        <div id="board">
+            <img src="images/rolling.gif" alt="Diceroll" id="dice_roll">
+            <div id="tic-tac">
+                <div id="row-1" class="row">
+                    <div id="box-1" class="box">
+                    </div>
+                    <div id="box-2" class="box">
+                    </div>
+                    <div id="box-3" class="box">
+                    </div>
+                </div>
+                <div id="row-2" class="row">
+                    <div id="box-4" class="box">
+                    </div>
+                    <div id="box-5" class="box">
+                    </div>
+                    <div id="box-6" class="box">
+                    </div>
+                </div>
+                <div id="row-3" class="row">
+                    <div id="box-7" class="box">
+                    </div>
+                    <div id="box-8" class="box">
+                    </div>
+                    <div id="box-9" class="box">
+                    </div>
+                </div>
+            </div>
+            <div id="num-grid">
+                <div id="row-1-num" class="row">
+                    <div id="boxnum1" class="box">
+                        <p class="number square">?</p>
+                        <img src="images/red-x.png" alt="X" class="x-mark">
+                    </div>
+                    <div id="boxnum2" class="box">
+                        <p class="number square">?</p>
+                        <img src="images/red-x.png" alt="X" class="x-mark">
+                    </div>
+                    <div id="boxnum3" class="box">
+                        <p class="number square">?</p>
+                        <img src="images/red-x.png" alt="X" class="x-mark">
+                    </div>
+                </div>
+                <div id="rownum-2-num" class="row">
+                    <div id="boxnum4" class="box">
+                        <p class="number square">?</p>
+                        <img src="images/red-x.png" alt="X" class="x-mark">
+                    </div>
+                    <div id="boxnum5" class="box">
+                        <p class="number square">?</p>
+                        <img src="images/red-x.png" alt="X" class="x-mark">
+                    </div>
+                    <div id="boxnum6" class="box">
+                        <p class="number square">?</p>
+                        <img src="images/red-x.png" alt="X" class="x-mark">
+                    </div>
+                </div>
+                <div id="row-3-num" class="row">
+                    <div id="boxnum7" class="box">
+                        <p class="number square">?</p>
+                        <img src="images/red-x.png" alt="X" class="x-mark">
+                    </div>
+                    <div id="boxnum8" class="box">
+                        <p class="number square">?</p>
+                        <img src="images/red-x.png" alt="X" class="x-mark">
+                    </div>
+                    <div id="boxnum9" class="box">
+                        <p class="number square">?</p>
+                        <img src="images/red-x.png" alt="X" class="x-mark">
+                    </div>
+                </div>
+            </div>
+            <div id="display">
+                <input type="button" id="roll-button" class="button" value="Roll">
+                <div id="dices">
+                    <div id="dice1" class="die"></div>
+                    <div id="dice2" class="die"></div>
+                </div>
+                <div id="strikes">
+                    <span>Strikes:</span>
+                    <div class="strike"></div>
+                    <div class="strike"></div>
+                    <div class="strike"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="tic-tac-toe.js"></script>
+</html>
